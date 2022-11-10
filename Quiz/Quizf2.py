@@ -7,9 +7,9 @@ Glosario = {"Bucle":"Iteración de un valor seleccionado",
 
 num = Glosario.keys()
 for num in reversed(Glosario):
-    print(str(num),":",str(Glosario[num]))
+    print("La palabra" ,str(num), "significa",":",str(Glosario[num]))
 
 print (Linea)
 
 for num in reversed(Glosario):
-    print(str(num),":","\n", "  ",str(Glosario[num]))
+    print("La palabra",str(num),"significa",":","\n", "  ",str(Glosario[num]))
